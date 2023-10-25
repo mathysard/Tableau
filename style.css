@@ -1,0 +1,55 @@
+table thead th {
+    margin: 0;
+}
+
+.colrowspan {
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #cdcdcd;
+}
+
+.colrowspan {
+    padding-bottom: 12%;
+}
+
+td, 
+th {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 0.7%;
+}
+
+th {
+    background-color: #333333;
+    color: white;
+}
+
+th:hover {
+    background-color: #525151;
+}
+
+td:hover {
+    background-color: #828282;
+}
+
+.th1 {
+    padding-right: 35rem;
+}
+
+.th2 {
+    padding-right: 40rem;
+}
+
+thead {
+    background-color: #333333;
+}
+
+table tr:nth-last-child(2n){
+    background-color: #f2f2f2;
+}
